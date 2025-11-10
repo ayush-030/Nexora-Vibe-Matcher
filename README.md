@@ -92,7 +92,7 @@ All evaluation metrics (queries, top matches, similarity scores, latency) are sa
 
 ---
 
-## 🧩 Requirements
+## 🧾 Requirements
 
 Install dependencies (if running locally):
 ```python
