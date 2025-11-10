@@ -50,10 +50,14 @@ Then run the notebook from top to bottom to generate real embeddings.
 If you don’t have API credits, the notebook automatically uses deterministic pseudo-embeddings for smooth offline execution.
 (The logic, cosine similarity, and evaluation remain identical.)
 
+---
+
 ## 📄 Evaluation Results
 
 All evaluation metrics (queries, top matches, similarity scores, latency) are saved in:
 📊 vibe_match_eval.csv
+
+---
 
 ## ✅ Summary
 
@@ -62,16 +66,18 @@ All evaluation metrics (queries, top matches, similarity scores, latency) are sa
 - Mode: Offline (pseudo-embedding)
 - Similarity threshold: 0.7 for "good" matches
 
-```
-Since this run used pseudo-embeddings, all similarity scores are random and below threshold.
-Real OpenAI embeddings typically yield 0.7–0.9 for strong matches.
-```
+> Since this run used pseudo-embeddings, all similarity scores are random and below threshold.
+> Real OpenAI embeddings typically yield 0.7–0.9 for strong matches.
+
+---
 
 ## 📊 Evaluation Plots
 
 - Latency per Query	
 - Top-1 Similarity per Query	
 - Similarity Distribution	
+
+---
 
 ## 🧩 Reflection
 
@@ -81,16 +87,7 @@ Real OpenAI embeddings typically yield 0.7–0.9 for strong matches.
 - Optimization: Caching embeddings and introducing a lightweight re-ranking layer (boosting scores for matching vibe tags) would improve accuracy and speed.
 - Learning Outcome: This project demonstrates how embeddings and vector search enable semantic, human-like recommendation systems.
 
-## 📦 Repository Structure
-nexora-vibe-matcher/
-├── Vibe_Matcher.ipynb        # Main Colab-ready notebook
-├── vibe_match_eval.csv        # Evaluation results
-├── requirements.txt           # Dependencies
-├── README.md                  # Project overview
-└── assets/                    # Screenshots & plots
-    ├── latency_plot.png
-    ├── similarity_plot.png
-    └── similarity_distribution.png
+---
 
 ## 🧩 Requirements
 
@@ -99,9 +96,13 @@ Install dependencies (if running locally):
 pip install -r requirements.txt
 ```
 
+---
+
 ## 🙌 Acknowledgement
 
 This project was developed as part of the AI Internship assignment at Nexora, demonstrating end-to-end understanding of embedding-based recommendation systems.
+
+---
 
 ## 👤 Author
 
