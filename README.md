@@ -35,7 +35,7 @@ This prototype demonstrates how AI models can translate abstract “vibes” int
 
 You can open and run this notebook directly in **Google Colab** 👇  
 
-🔗 [**Open in Colab**](https://colab.research.google.com/github/<your-username>/nexora-vibe-matcher/blob/main/Vibe_Matcher.ipynb)
+🔗 [**Open in Colab**](https://colab.research.google.com/drive/19hJua6S7ZbjBnZseBn75D8hC89gL0zjm?usp=sharing)
 
 ### ▶️ Running the Notebook
 
