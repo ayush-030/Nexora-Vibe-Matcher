@@ -47,7 +47,9 @@ os.environ["OPENAI_API_KEY"] = input("Enter your OpenAI API key: ").strip()
 Then run the notebook from top to bottom to generate real embeddings.
 
 **Option 2 — Offline Demo Mode:**
+
 If you don’t have API credits, the notebook automatically uses deterministic pseudo-embeddings for smooth offline execution.
+
 (The logic, cosine similarity, and evaluation remain identical.)
 
 ---
@@ -55,6 +57,7 @@ If you don’t have API credits, the notebook automatically uses deterministic p
 ## 📄 Evaluation Results
 
 All evaluation metrics (queries, top matches, similarity scores, latency) are saved in:
+
 📊 vibe_match_eval.csv
 
 ---
